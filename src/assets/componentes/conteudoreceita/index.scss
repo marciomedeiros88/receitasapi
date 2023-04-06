@@ -1,0 +1,46 @@
+.conteudoreceita{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 2em auto;
+    background-color: var(--vermelho-receitas);
+    border-radius: 1em;
+    overflow: hidden;
+
+    .imagemreceita{
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .textoreceita{
+        margin:1em;
+    }
+
+    img{
+        border-radius:1em 1em 0 0 ;
+        width: 100%;
+        transition: all 1s cubic-bezier(0.2, 0, 0.08, 1);
+        overflow: hidden;
+    }
+
+    img:hover{
+        transition: all 1s cubic-bezier(0.2, 0, 0.08, 1);
+        transform: scale(1.1);
+    }
+
+    h1{
+        margin:0.5em;
+        color: white;
+    }
+
+    h2{
+        margin:1em;
+        color: var(--amarelo-receitas);
+    }
+
+    p{
+        color: white;
+        font-size: 16pt;
+        margin:1em;
+    }
+}

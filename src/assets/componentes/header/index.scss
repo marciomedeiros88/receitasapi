@@ -1,0 +1,18 @@
+.Header{
+    background-color: var(--verde-receitas);
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    p{
+        color:white;
+        font-size:14pt;
+    }
+
+    img{
+        height:3.5em;
+    }
+    
+}
