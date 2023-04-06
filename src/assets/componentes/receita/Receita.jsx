@@ -8,14 +8,14 @@ function Receita({ data }){
     const {receitaId} = useParams();
     const receitaSelecionada = data.find((receita) => receita.id == receitaId);
 
-    const num1 = 7
-    const num2 = 10
+    const num1 = parseInt(receitaId) - 1;
+    const num2 = parseInt(receitaId) + 3;
 
     /* const num2 = data[Math.floor(Math.random() * data.length)] */
 
 
-    const outrasreceitas = data.slice(num1,num2)
-    console.log(num1)
+    const outrasreceitas = data.slice(num1, num2)
+    console.log(num1, num2)
     return(
         <>
         <main className='Receitas'>
