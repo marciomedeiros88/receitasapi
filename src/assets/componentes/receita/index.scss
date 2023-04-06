@@ -1,0 +1,23 @@
+.Receitas{
+    display: grid;
+    grid-auto-flow: column;
+    box-sizing: content-box;
+    justify-content: space-around;
+}
+
+.outrasreceitas{
+    display: grid;
+    grid-auto-flow: row;
+    vertical-align: top;
+    padding:1em;
+    justify-items: center;
+
+    width: auto;
+
+}
+
+.receitaprincipal{
+    margin:auto;
+
+    padding:1em;
+}

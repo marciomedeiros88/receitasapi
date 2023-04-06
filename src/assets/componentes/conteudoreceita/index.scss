@@ -1,8 +1,8 @@
 .conteudoreceita{
     display:flex;
     flex-direction: column;
-    width: 50%;
-    margin: 2em auto;
+    width: 80%;
+    margin: auto;
     background-color: var(--vermelho-receitas);
     border-radius: 1em;
     overflow: hidden;
@@ -10,6 +10,7 @@
     .imagemreceita{
         overflow: hidden;
         width: 100%;
+        height:10%;
     }
 
     .textoreceita{
@@ -18,7 +19,6 @@
 
     img{
         border-radius:1em 1em 0 0 ;
-        width: 100%;
         transition: all 1s cubic-bezier(0.2, 0, 0.08, 1);
         overflow: hidden;
     }

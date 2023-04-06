@@ -6,7 +6,7 @@ import Footer from './assets/componentes/footer/Footer'
 import './App.css'
 import {
   BrowserRouter as Router,
-  Route,
+  Link,
   Routes,
   useLocation
 } from "react-router-dom";

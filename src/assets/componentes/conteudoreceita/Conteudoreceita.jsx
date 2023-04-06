@@ -8,7 +8,6 @@ function Conteudoreceita( {receita} ){
     /* const {receitaId} = useParams();
     const receitaSelecionada = receita.find((selecionada) => selecionada.id == receitaId); */
 
-    console.log(receita);
 
     return(
         <>

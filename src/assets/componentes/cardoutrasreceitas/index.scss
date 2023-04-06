@@ -1,0 +1,40 @@
+.cardoutrasreceitas{
+    margin: 1em;
+    width: 28em;
+    height: 15em;
+    background-color: var(--vermelho-receitas);
+    border-radius:1em;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: inset 0 -0.75em 5em #1b1b1b;
+
+    h1{
+        color:white;
+        font-size: 20pt;
+        padding: 0.25em 1em;
+    }
+
+    img{
+        width:100%;
+        border-radius:1em 1em 0 0 ;
+        transition: all 1s;
+    }
+
+    img:hover{
+        transition: all 1s cubic-bezier(0.2, 0, 0.08, 1);
+        transform: scale(1.1);
+    }
+
+    button{
+        margin: 0.25em 1em;
+        color: white;
+        height: 2em;
+        width: auto;
+        font-family: var(--fonte-paragrafos-receitas);
+        font-size: 14pt;
+    }
+}
