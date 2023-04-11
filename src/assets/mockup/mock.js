@@ -143,6 +143,24 @@ export const product_mock = [
     ingredientes:"250 gramas de camarão. 500 gramas de penne. 1 maço de sálvia. 2 dentes de alho fatiados. Queijo parmesão ralado. Azeite de oliva extra virgem. Alho e sal.",
     mododepreparo:"Cozinha a massa e enquanto isto, numa frigideira coloque um pouco de azeite, o alho e adicione o camarão. Salpique um pouco de sal. Quando o camarão estiver quase pronto, adicione as folhas de sálvia. Escorra a massa e junte ao camarão, regue com mais azeite o quanto baste. Na hora de servir salpique o queijo e decore com uma folhinha de sálvia."
     },
+    {
+    id:17,
+    nome:"Mini bruschetta integral",
+    imagem:"https://marciomedeirosdesign.com.br/nucleoweb/receitasapi/imgs/minibruschettaintegral.jpg",
+    porcoes:"16",
+    tempo:"35",
+    ingredientes:"4 fatias pão integral. 1 colher (sopa) azeite de oliva. 2 colheres (sopa) água. 2 tomates picados. Folhas manjericão. Sal e Pimenta do reino a gosto.",
+    mododepreparo:"Corte as fatias de pão em 4 e doure em uma frigideira quente ou no forno. Coloque os tomates picados em uma panela antiaderente pré aquecida e regue com a água. Tempere com um pouquinho de sal e deixe cozinhar rapidamente. Monte as bruschettas colocando o tomate cozido e as folhas de manjericão. Adicione pimenta do reino e um fio de azeite de oliva."
+    },
+    {
+    id:18,
+    nome:"Bolinho de mandioca com carne-seca",
+    imagem:"https://marciomedeirosdesign.com.br/nucleoweb/receitasapi/imgs/bolinhodemandioca.jpg",
+    porcoes:"15 a 20",
+    tempo:"35",
+    ingredientes:"500 g de mandioca cozida. 2 ovos. 400 g de carne seca. 1 cebola média picada. 1 tomate sem pele picado. 1 dente de alho picado. Farinha de rosca para dar o ponto. Sal a gosto. Pimenta a gosto. Óleo para fritar.",
+    mododepreparo:"Amasse bem a mandioca e misture com os ovos. Reserve. Refogue a cebola e o alho picados. Adicione o tomate. Coloque a carne seca e deixe fritar um pouco. Junte a mistura de mandioca e ovo. Coloque a farinha de rosca aos poucos até dar o ponto de modelar. Faça bolinhas iguais e reserve em uma forma com papel manteiga. Frite em óleo quente até dourar bem."
+    },
     
 ]
 
