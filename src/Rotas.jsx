@@ -2,6 +2,9 @@
 import Home from "./assets/componentes/home/Home";
 import Receita from "./assets/componentes/receita/Receita";
 import './assets/componentes/animation/animation.css'
+import Header from './assets/componentes/header/Header'
+import Footer from './assets/componentes/footer/Footer'
+
 
 import "./index.css";
 import {
@@ -18,6 +21,8 @@ function Rotas() {
     const location = useLocation();
     return (
         <>
+        <Header/>
+        
         <TransitionGroup>
             <CSSTransition key={location.key} className="transition" timeout={750}>
             <Routes location={location}>
@@ -26,6 +31,7 @@ function Rotas() {
             </Routes>
             </CSSTransition>
         </TransitionGroup>
+        <Footer/>
         </>
     );
 }

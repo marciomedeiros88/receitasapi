@@ -8,7 +8,7 @@ function Receita({ data }){
     const {receitaId} = useParams();
     const receitaSelecionada = data.find((receita) => receita.id == receitaId);
 
-    const num1 = parseInt(receitaId) - 1;
+    const num1 = parseInt(receitaId) - 0;
     const num2 = parseInt(receitaId) + 3;
 
     /* const num2 = data[Math.floor(Math.random() * data.length)] */
@@ -30,9 +30,10 @@ function Receita({ data }){
             ))}
                 </div>
             </section>
-            
-
         </main>
+        <footer className='footerreceita'>
+            <Link to={"/"}><button>Voltar</button></Link>
+        </footer>
         </>
         
     )

@@ -69,7 +69,7 @@ export const product_mock = [
     porcoes:"6",
     tempo:"85",
     ingredientes:"1 pacote de creme de cebola (68 gramas), 1 lata de creme de leite sem soro, 2 colheres de sopa de maionese, salsinha a gosto.",
-    mododepreparo:"Coloque todos os ingredientes em um recipiente e misture bem.Leve para a geladeira por cerca de 2 horas. Agora é só servir. Bom apetite."
+    mododepreparo:"Coloque todos os ingredientes em um recipiente e misture bem. Leve para a geladeira por cerca de 2 horas. Agora é só servir. Bom apetite."
     },
     {
     id:9,
@@ -89,6 +89,61 @@ export const product_mock = [
     ingredientes:"500 gramas de filé de peixe. 1/2 colher de sopa de sal. Pimenta-do-reino a gosto. Suco de 1 limão. 2 dentes de alho picados ou amassados. 120 gramas de farinha de trigo. 120 gramas de fubá. Óleo para fritar.",
     mododepreparo:"Reúna todos os ingredientes. Em uma tábua, corte os peixes em iscas. Leve o peixe fatiado a um recipiente e tempere com sal, pimenta-do-reino, suco de limão e alho. Feche o recipiente com plástico filme, ou uma tampa apropriada, e deixe marinar na geladeira por 20 minutos. Em outro recipiente, misture a farinha de trigo com o fubá. Empane os peixes nessa mistura de secos e reserve. Em uma panela, coloque óleo suficiente para fritar os peixes. Assim que estiver bem quente, frite as iscas por imersão. Depois de fritas, acomode-as em um papel toalha para escorrer o excesso de óleo. Está pronto! Bom apetite."
     },
+    {
+    id:11,
+    nome:"Escondidinho de camarão",
+    imagem:"https://marciomedeirosdesign.com.br/nucleoweb/receitasapi/imgs/escondidinhodecamarao.jpg",
+    porcoes:"10",
+    tempo:"80",
+    ingredientes:"2 kg de mandioca, Sal a gosto, 2 colheres de sopa de leite em pó, 200 ml de manteiga de garrafa, 1 cebola média picada, 1 tomate grande picado, 1 colher de sopa de azeite de oliva, 1 kg de camarão branco limpo, 200 ml de leite de coco, 1 colher de sopa de salsinha, 1 colher de sopa de coentro, 200 gramas de requeijão cremoso.",
+    mododepreparo:"Reúna todos os ingredientes. Cozinhe a mandioca em água fervente com uma pitada de sal por 50 minutos. Quando a mandioca estiver bem macia, escorra a água e reserve 200 ml do caldo do cozimento; Com a mandioca ainda morna, amasse-a em um recipiente, descartando os fiapos; Em outro recipiente, dilua o leite em pó na água do cozimento. Reserve. Leve a massa da mandioca ao fogo baixo para fazer um purê, com o leite em pó diluído, a manteiga e um pouco de sal. Misture bem até ficar uma massa homogênea. Desligue o fogo e reserve. Em uma frigideira, refogue a cebola e o tomate no azeite. Adicione o camarão com uma pitada de sal e permaneça mexendo. Quando o camarão dourar, acrescente o leite de coco, a salsinha, o coentro e misture. Acrescente o requeijão cremoso e mexa. Em um refratário, acomode metade do purê utilizando uma espátula ou colher. Despeje o camarão por cima e cubra com o restante do purê de mandioca. Leve ao forno preaquecido a 180 ºC por 15 minutos. Está pronto! Bom apetite."
+    },
+    {
+    id:12,
+    nome:"Strogonoff de camarão",
+    imagem:"https://marciomedeirosdesign.com.br/nucleoweb/receitasapi/imgs/strogonoffdecamarao.jpg",
+    porcoes:"3",
+    tempo:"30",
+    ingredientes:"400 g camarão. 1 colher de sopa de manteiga. 3 dentes de alho picados. 1 cebola picada. 1 colher de sopa de azeite de oliva. 1 xícara de chá de creme de leite fresco. 5 colheres de sopa de ketchup. 2 colheres de sopa de mostarda. Suco de 1/2 limão. Sal a gosto. Pimenta-do-reino a gosto.",
+    mododepreparo:"Reúna os ingredientes; Tempere o camarão com sal, pimenta-do-reino e o suco de 1/2 limão. Misture e deixe de lado; Em uma frigideira, acrescente o azeite de oliva e a manteiga em fogo médio; Assim que derretida a manteiga, acrescente o alho picado e refogue até ficar dourado; Em seguida, acrescente a cebola picada e mexa até ficar transparente; Aumente o fogo e coloque o camarão sem o suco de limão; Frite um pouco o camarão e acrescente o ketchup, a mostarda e o creme de leite fresco; Misture tudo e coloque sal a gosto; Assim que levantar fervura, desligue o fogo e sirva."
+    },
+    {
+    id:13,
+    nome:"Spaghetti com camarão, azeite e manjericão",
+    imagem:"https://marciomedeirosdesign.com.br/nucleoweb/receitasapi/imgs/spaghetticomcamarao.jpg",
+    porcoes:"3",
+    tempo:"30",
+    ingredientes:"Porção de spaghetti pra dois. 6 camarões grandes com casca. 300 g de camarão (descascado). 1/2 xícara de azeite de oliva. Queijo parmesão a gosto. sal e pimenta quanto baste. 3 dentes de alho (se preferir mais suave diminua a quantidade). Manjericão quanto baste.",
+    mododepreparo:"Numa panela coloque a água com sal para a massa. Enquanto ela ferve e a massa cozinha é o tempo de fazer o molho. Colocque no fogo uma frigideira funda. Quando estiver bem quente coloque um fio de azeite e o alho amassado. Em seguida os camarões com casca. Eles cozinham muito rápido, em aproximadamente três minutos estão prontos. Em seguida retiro os camarões e reservo. Na mesma frigideira coloco um pouco mais de azeite e o restante do camarão limpo, bem escorrido, temperado com sal e pimenta. Ele também vai cozinhar bem rápido. deixe cozinhar de um lado, depois vire-os para que cozinhe dos dois lados. Quando estiver pronto desligue o fogo, acrescente o que sobrou do azeite, manjericão fresco a gosto e faça uma correção de sal, se necessário. Escorra a massa e coloque-a sobre os camarões. Acrescente o queijo ralado e mexa tudo."
+    },
+    {
+    id:14,
+    nome:"Molho Alfredo com camarão",
+    imagem:"https://marciomedeirosdesign.com.br/nucleoweb/receitasapi/imgs/molhoalfredocomcamarao.jpg",
+    porcoes:"2",
+    tempo:"40",
+    ingredientes:"300g de massa longa da sua preferência. 1 xícara (chá) bem cheia de creme de leite fresco. 2 colheres (sopa) de manteiga. 4 colheres (sopa) de queijo parmesão ralado. 12 camarões de tamanho médio (se usar pequeno aumente a quantidade). 1 pitada de lemon pepper. Sal a gosto.",
+    mododepreparo:"Comece temperando o camarão com lemon pepper e salteando em um fio de azeite, até ficar rosado e cozido no ponto (aproximadamente 2 minutos). Desligue a reserve os camarões. Em uma panela coloque o creme de leite e a manteiga. Deixe ferver e reduza o fogo para o mínimo, mexendo por 2 minutos até engrossar. Enquanto isso sua massa já deve estar cozinhando. Adicione ao molho os camarões, o queijo ralado e ajuste o sal a gosto. Quando a massa estiver quase no ponto desejado escorra e transfira para dentro da panela do molho. Mexa por 1 minuto em fogo baixo para que a massa absorva o molho. Sirva bem quente com queijo parmesão ralado a gosto."
+    },
+    {
+    id:15,
+    nome:"Spaghetti com camarão e manjericão",
+    imagem:"https://marciomedeirosdesign.com.br/nucleoweb/receitasapi/imgs/spaghetticomcamaraoemanjericao.jpg",
+    porcoes:"2",
+    tempo:"40",
+    ingredientes:"200g de spaghetti ou a massa de sua preferência. 400g de camarão descascado e limpo. 3 dentes de alho. Uma xícara de folhas de manjericão fresco. ½ xícara de azeite de oliva de boa qualidade. Sal, pimenta e suco de limão para temperar.",
+    mododepreparo:"Aqueça a água para cozinhar a massa. Enquanto isso tempere os camarões com sal, pimenta do reino e suco de limão. Sugerimos, por exemplo, um toque de páprica defumada para realçar o camarão. Aqueça uma frigideira ampla (onde caiba a massa depois de cozida) e coloque 2/3 do azeite. O detalhe é que a frigideira deve estar muito quente. De imediato coloque o alho bem picadinho, mas cuide para ele não queimar. Em seguida junte os camarões para se refestelarem no azeite com alho até mudarem de cor. Leve a massa já cozida para a frigideira salteie junto com os camarões. Um pouquinho da água do cozimento da massa vai ajudar as coisas a se misturarem. Some o restante do azeite e as folhas de manjericão e desligue o fogo. Vai subir um perfume mágico de manjericão. Acredite: está pronto o spaghetti com camarão e manjericão. Rápido assim!"
+    },
+    {
+    id:16,
+    nome:"Penne com camarão e sálvia",
+    imagem:"https://marciomedeirosdesign.com.br/nucleoweb/receitasapi/imgs/pennecomcamaraoesalvia.jpg",
+    porcoes:"2",
+    tempo:"40",
+    ingredientes:"250 gramas de camarão. 500 gramas de penne. 1 maço de sálvia. 2 dentes de alho fatiados. Queijo parmesão ralado. Azeite de oliva extra virgem. Alho e sal.",
+    mododepreparo:"Cozinha a massa e enquanto isto, numa frigideira coloque um pouco de azeite, o alho e adicione o camarão. Salpique um pouco de sal. Quando o camarão estiver quase pronto, adicione as folhas de sálvia. Escorra a massa e junte ao camarão, regue com mais azeite o quanto baste. Na hora de servir salpique o queijo e decore com uma folhinha de sálvia."
+    },
+    
 ]
 
 

@@ -1,6 +1,7 @@
 {
   "name": "receitas",
   "private": true,
+  "homepage" : "http://www.marciomedeirosdesign.com.br/nucleoweb/receitasapi/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

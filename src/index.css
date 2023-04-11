@@ -7,7 +7,11 @@
   --verde-receitas: #00614C;
   --amarelo-receitas: #FFAE00;
   --vermelho-receitas: #FC4B3C;
+}
 
+body{
+  width: 100%;
+  margin: auto; 
 }
 
 a {
@@ -15,6 +19,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }

@@ -3,7 +3,7 @@ import Rotas from './Rotas'
 import History from './assets/services/History'
 import Header from './assets/componentes/header/Header'
 import Footer from './assets/componentes/footer/Footer'
-import './App.css'
+import './index.css'
 import {
   BrowserRouter as Router,
   Link,
@@ -15,11 +15,11 @@ function App() {
 
   return (
     <>
-    <Header/>
+    
     <Router History={History}>
       <Rotas />
     </Router>
-    <Footer/>
+    
     </>
   )
 }
