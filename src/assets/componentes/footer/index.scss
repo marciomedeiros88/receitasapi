@@ -1,7 +1,7 @@
 .Footer{
     background-image: linear-gradient(
             to right,
-            rgba(252, 75, 60, 0.5),
+            rgba(18, 119, 22, 0.5),
             rgba(255, 118, 0, 0.5)
         );
     display: flex;
@@ -25,4 +25,10 @@
     p{
         color: white;
     }
+}
+
+.rodapeilustracao{
+    height: 8em;
+    width: 100%;
+    background-image: url("https://marciomedeirosdesign.com.br/nucleoweb/receitasapi/imgs/ilustracoes.jpg");
 }

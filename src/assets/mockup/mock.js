@@ -162,6 +162,7 @@ export const product_mock = [
     mododepreparo:"Amasse bem a mandioca e misture com os ovos. Reserve. Refogue a cebola e o alho picados. Adicione o tomate. Coloque a carne seca e deixe fritar um pouco. Junte a mistura de mandioca e ovo. Coloque a farinha de rosca aos poucos até dar o ponto de modelar. Faça bolinhas iguais e reserve em uma forma com papel manteiga. Frite em óleo quente até dourar bem."
     },
     
+    
 ]
 
 

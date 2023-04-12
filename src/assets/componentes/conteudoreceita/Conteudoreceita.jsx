@@ -15,6 +15,7 @@ function Conteudoreceita( {receita} ){
         <>
         <div className="conteudoreceita">
             <div className='imagemreceita'><img src={receita.imagem} alt={receita.nome} /></div>
+            <div className='rodapeilustracao'></div>
             <div className='textoreceita'>
             <h1>{receita.nome}</h1>
             <div className='info'>

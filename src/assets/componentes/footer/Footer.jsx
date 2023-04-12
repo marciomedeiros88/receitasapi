@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
     return (
         <>
+        <section className='rodapeilustracao'></section>
         <footer className='Footer'>
             <div class="text">
                 <p>Desenvolvido por Márcio Medeiros</p>

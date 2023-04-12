@@ -1,16 +1,26 @@
 .video{
     width: 100%;
-    height:35em;
+    height: 42.5em;
     overflow: hidden;
     margin: auto;
     border-radius: 0 0 1em 1em;
     align-items: center;
-    
+    background-image: url("https://marciomedeirosdesign.com.br/nucleoweb/receitasapi/imgs/bannerreceitas.jpg");
+    background-size: cover;
 
     video{
         display:flex;
         width: 100%;
         margin-top:-17.5em;
     }
-}
 
+    .textobanner{
+        display: flex;
+        color: white;
+        height: 30em;
+        width: 35em;
+        padding: 2em 60%;
+        align-items: center;
+    }
+    
+}
