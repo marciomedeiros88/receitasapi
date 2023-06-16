@@ -8,14 +8,14 @@ function Receita({ data }){
     const {receitaId} = useParams();
     const receitaSelecionada = data.find((receita) => receita.id == receitaId);
 
-    const num1 = parseInt(receitaId) - 0;
-    const num2 = parseInt(receitaId) + 3;
+    /* const num1 = data[3];
+    const num2 = data[2];
 
     /* const num2 = data[Math.floor(Math.random() * data.length)] */
 
-
+    /* console.log(data.id[3])
     const outrasreceitas = data.slice(num1, num2)
-    console.log(num1, num2)
+    console.log(num1, num2) */
     return(
         <>
         <main className='Receitas'>
@@ -23,13 +23,13 @@ function Receita({ data }){
                 {/* nao posso usar o .map aqui ou todas as receitas passarao para Conteudoreceita */}
             <Conteudoreceita key={receitaSelecionada.id} receita={receitaSelecionada}/>
             </section>
-            <section className='outrasreceitas'>
+            {/* <section className='outrasreceitas'>
                 <div className='outrasreceitas_card'>
             {outrasreceitas.map((receita) => (
             <Cardoutrasreceitas key={receita.id} data={receita}/>
             ))}
                 </div>
-            </section>
+            </section> */}
         </main>
         <footer className='footerreceita'>
             <Link to={"/"}><button>Voltar</button></Link>

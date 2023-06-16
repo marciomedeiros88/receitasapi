@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom'
 function Footer() {
     return (
         <>
-        <section className='rodapeilustracao'></section>
+        
         <footer className='Footer'>
-            <div class="text">
+            <div className="text">
                 <p>Desenvolvido por Márcio Medeiros</p>
             </div>
             <div className='redes'>
@@ -25,6 +25,7 @@ function Footer() {
             </a>
             </div>
         </footer>
+        <section className='rodapeilustracao'></section>
         
         </>
     );
