@@ -6,7 +6,7 @@ import Receita from "./assets/componentes/receita/Receita";
 import './assets/componentes/animation/animation.css'
 import Header from './assets/componentes/header/Header'
 import Footer from './assets/componentes/footer/Footer'
-import Form from './assets/componentes/form/Form'
+// import Form from './assets/componentes/form/Form'
 
 //--CSS
 
@@ -73,7 +73,7 @@ function Rotas() {
             <Routes location={location}>
                 <Route exact path="/" element={<Home data={receitas}/>} />
                 <Route exact path="/receita/:receitaId" element={<Receita data={receitas}/>} />
-                <Route exact path="/cadastrarreceita" element={<Form userref={receitaCollectionRef}/>}/>
+                {/* <Route exact path="/cadastrarreceita" element={<Form userref={receitaCollectionRef}/>}/> */}
             </Routes>
             </CSSTransition>
         </TransitionGroup>
