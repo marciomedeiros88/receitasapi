@@ -2,7 +2,6 @@ import './index.scss'
 import { Link } from 'react-router-dom'
 
 function Card({ data }){
-    console.log(data);
     return(
         <>
         <div className="cardreceita">
